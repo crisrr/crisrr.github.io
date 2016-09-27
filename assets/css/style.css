@@ -1,0 +1,32 @@
+body {
+    text-align: center;
+    font-family: 'Poiret One', cursive;
+    background-color: #000;
+    color: #fff;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.header {
+    width: 100%;
+}
+
+.header img {
+    width: 70%;
+}
+
+.header .title {
+    margin-top: 2%;
+    font-size: 55px;
+}
+
+.container {
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.social-networks img {
+    padding: 5px;
+}
