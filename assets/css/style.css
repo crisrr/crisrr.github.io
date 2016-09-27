@@ -3,10 +3,12 @@ body {
     font-family: 'Poiret One', cursive;
     background-color: #000;
     color: #fff;
+    font-weight: bold;
 }
 
-a:hover {
+a,a:hover {
     text-decoration: none;
+    color: inherit;
 }
 
 .header {
@@ -18,13 +20,28 @@ a:hover {
 }
 
 .header .title {
-    margin-top: 2%;
+    margin-top: 1%;
     font-size: 55px;
+}
+
+.header .sub-title {
+    font-size: 30px;
+    font-weight: normal;
 }
 
 .container {
     margin-top: 2%;
     margin-bottom: 2%;
+}
+
+.social-networks {
+    margin-top: 1%;
+    font-size: 21px;
+}
+
+.social-networks li {
+    text-align: left;
+    list-style: none;
 }
 
 .social-networks img {
